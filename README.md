@@ -20,13 +20,13 @@ To include lags of temperature and other interaction terms into the model, 795 v
 The model follows the approach of Wang et al., 2016 and models the recency effect at an aggregated level. One thing different from their model is that 24-hour moving averages of temperature is included in the model, as well as the 24-hour moving minimum and moving maximum of temperature:
 
 <p align="center">
-<img src = "pictures/Picture2.png" width=500>
+<img src = "pictures/Picture22.png" width=500>
 </p>
 
 In the end, the vanilla benchmark model is extended to:
 
 <p align="center">
-<img src = "pictures/Picture3.png" width=500>
+<img src = "pictures/Picture4.png" width=500>
 </p>
 
 The multiple linear regression performs better than the vanilla benchmark and achieves a MAPE of 6.0 in training set. But still its performance is not very satisfying. So other machine learning models are tried to improve the forecast accuracy.
